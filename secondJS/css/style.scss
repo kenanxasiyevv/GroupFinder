@@ -9,7 +9,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 height: 100vh;
-transition: 0.3s;
+transition: 0.9s;
 
 .center {
     text-align: center;
@@ -19,9 +19,10 @@ transition: 0.3s;
     transform: translate(-50%, -50%);
 
     #inp {
+        font-size: 40px;
         display: block;
         margin-bottom: 60px;
-        padding: 30px 60px;
+        padding: 32px 12px;
         border-radius: 10px;
         border: 3px solid green;
         box-shadow: 2px 2px 1px blue;
@@ -29,7 +30,7 @@ transition: 0.3s;
     }
 
     #btn {
-        padding: 20px 70px;
+        padding: 35px 115px;
         border-radius: 10px;
         border: 3px solid green;
         box-shadow: 2px 2px 1px red;
@@ -42,7 +43,7 @@ h1{
     color: black;
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 75%;
     transform: translate(-50%, -50%);
 
 }

@@ -10,7 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  transition: 0.7s;
+  transition: 0.9s;
 }
 body .center {
   text-align: center;
@@ -20,16 +20,17 @@ body .center {
   transform: translate(-50%, -50%);
 }
 body .center #inp {
+  font-size: 40px;
   display: block;
   margin-bottom: 60px;
-  padding: 30px 60px;
+  padding: 32px 12px;
   border-radius: 10px;
   border: 3px solid green;
   box-shadow: 2px 2px 1px blue;
   background-color: rgb(69, 255, 156);
 }
 body .center #btn {
-  padding: 20px 70px;
+  padding: 35px 115px;
   border-radius: 10px;
   border: 3px solid green;
   box-shadow: 2px 2px 1px red;
@@ -41,6 +42,6 @@ body h1 {
   color: black;
   position: absolute;
   left: 50%;
-  top: 70%;
+  top: 75%;
   transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */
